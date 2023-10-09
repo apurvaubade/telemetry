@@ -30,7 +30,7 @@ client.exec({
         actor Tuple(id String, type String),
         context Tuple(channel String, pdata Tuple(id String, ver String, pid String), env String, sid String, did String, cdata Array(Tuple(id String, type String)), rollup Tuple(l1 String), uid String),
         object Tuple(id String, ver String, type String),
-        edata Tuple (id String, type String, mode String, pageid String, duration Float64, uri String, subtype String)
+        edata Tuple (id String, type String, mode String, pageid String, duration Float64, uri String, subtype String, studentid String, uid String, userName String, grade String, medium String, board String)
       ), 
       channel String, 
       pid String, 
